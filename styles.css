@@ -1,8 +1,0 @@
-body{
-    display: flex;
-    width: 50vw;
-    flex-wrap: wrap;
-}
-.form{
-    display: block;
-}

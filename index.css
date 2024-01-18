@@ -1,0 +1,233 @@
+body{
+    width: 100%;
+}
+/* header start */
+
+#header{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+    background-color: #fff;
+    box-shadow: 1px 0.5px 0px  #ccc;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    font-weight: 3rem;
+}
+
+#navbar{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+#bobo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+}
+.mongo{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.input-box label{
+    width: 95%;
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.input-box input{
+    height: 30px;
+    width: 95%;
+    padding: -5px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.input-boy label{
+    width: 95%;
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.input-boy{
+    padding-bottom: 30px;
+}
+.input-boy input{
+    height: 30px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
+.content .input-box{
+    flex-basis: 49%;
+}
+h2{
+    padding-left: 20px;
+}
+
+.input-girl label{
+    width: 95%;
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.jiggy{
+    padding: 20px 0px;
+}
+
+.input-girl input{
+    height: 30px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius:5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.button-container button{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        display: block;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        background-color:rgb(88, 185, 140);
+        cursor: pointer;
+        transition: 0.3s;
+        align-items: center;
+        justify-content: center;
+       
+    
+}
+.btn{
+    display: grid;
+    place-items: center;
+}
+ 
+/* .button-container button{
+    width: 100%;
+    margin-top: 10px;
+     padding: 5px 5px; 
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    background-color: rgb(88, 185, 140);
+    cursor: pointer;
+    transition: 0.3s;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+} */
+
+ .game{
+    background-color: whitesmoke;
+    border: 1px;
+    max-width: 800px;
+    height: 550px;
+    width: 50%;
+ }
+ .boss{
+    background-color: rgb(101, 147, 233);
+    width: 50%;
+    max-width: 250px;
+    color: white;
+    display: block;
+    height: 550px;
+    /* color: #fff; */
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+   
+}
+.bigg{
+    font-weight: bold;
+    padding-top: 20px;
+}
+ .ftp{
+    padding: 20px;
+   
+ }
+ .you{
+    font-size: 3rem;
+    font-weight: lighter;
+ }
+ .imag{
+    padding: 0px 50px;
+ }
+ .grass p{
+    align-items: center;
+    font-weight: bold;
+  }
+  .gap{
+    text-decoration: underline skyblue;
+    padding-bottom: 30px;
+  }
+  span{
+    font-weight: bold;
+  }
+  .line{
+    border: 0.3px solid skyblue;
+
+  }
+  .foot{
+    align-items: center;
+    justify-content: center;
+    padding-left: 180px;
+  }
+  .nit{
+    text-decoration: underline dotted;
+  }
+  i{
+    color: skyblue;
+    text-decoration: #fff;
+  }
+  h{
+    justify-content: space-between;
+  }
+  .h li{
+    list-style: none;
+    justify-content: space-between;
+    padding: 7px;
+  }
